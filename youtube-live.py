@@ -78,7 +78,6 @@ def stream():
     # -----------------------------
     command = [
         STREAMLINK_PATH,
-        "--player-passthrough", "hls",
         "--hls-live-restart",
     ] + COMMON_HEADERS + [
         url,
