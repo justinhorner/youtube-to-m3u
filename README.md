@@ -3,7 +3,8 @@ Play YouTube live streams in any player
 
 # Known Issues And Fix <br>
 The official streamlink plugin is currently getting 400 errors - You can fix it by replacing the plugin with my version which works until they officially fix the plugin <br>
-Replace the official streamlink plugin with the one below eg in Windows the location is ```C:\Program Files\Streamlink\pkgs\streamlink\plugins``` <br>
+Replace the official streamlink plugin with the one below eg in Windows the location is <br>
+```C:\Program Files\Streamlink\pkgs\streamlink\plugins``` <br>
 [Streamlink Plugin Fix](https://github.com/user-attachments/files/25746267/youtube.py)
 
 ## Important Note
