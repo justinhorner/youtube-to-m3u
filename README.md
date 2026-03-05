@@ -1,14 +1,10 @@
 # youtube-to-m3u
 Play YouTube live streams in any player
 
-# Known Issues And Fix <br>
-The official streamlink plugin is currently getting 400 errors - You can fix it by replacing the plugin with my version which works until they officially fix the plugin <br>
-Replace the official streamlink plugin with the one below eg in Windows the location is <br>
-```C:\Program Files\Streamlink\pkgs\streamlink\plugins``` <br>
-[Streamlink Plugin Fix](https://github.com/user-attachments/files/25746267/youtube.py)
-
-## Important Note
-The m3u/extracted m3u8 links will only work on machines that have the same public IP address (on the same local network) as the machine that extracted them. To play on a client that has a different public IP (on a different network) use a non flask version and load the m3u into a m3u proxy such as threadfin to restream
+## Important Notes
+The m3u/extracted m3u8 links will only work on machines that have the same public IP address (on the same local network) as the machine that extracted them. To play on a client that has a different public IP (on a different network) use a non flask version and load the m3u into a m3u proxy such as threadfin to restream <br>
+<br>
+If you get 400 error you will need to update your streamlink plugin for the streamlink scripts or youtube_non_stream_link.py when updates are available to fix the issue. Normally updating the client device version in the script will be enough for it to work again
 
 ## Choose script option
 youtube-live.py - Uses a flask server to automatically pull the actuall stream link. Server needs to be running all the time for m3u to work. Best for always working stream<br>
@@ -38,7 +34,7 @@ To test streamlink install type in a new cmd/terminal window
 streamlink --version
 ```
 The output should be
-streamlink "version number" eg 8.1.2 <br>
+streamlink "version number" eg 8.2.1 <br>
 If it says unknown command/'streamlink' is not recognized as an internal or external command,
 operable program or batch file. <br>
 Then you need to make sure you have installed streamlink to path/environmental variables
