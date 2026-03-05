@@ -4,7 +4,7 @@ Play YouTube live streams in any player
 ## Important Notes
 The m3u/extracted m3u8 links will only work on machines that have the same public IP address (on the same local network) as the machine that extracted them. To play on a client that has a different public IP (on a different network) use a non flask version and load the m3u into a m3u proxy such as threadfin to restream <br>
 <br>
-If you get 400 error you will need to update your streamlink plugin for the streamlink scripts or youtube_non_stream_link.py when updates are available to fix the issue. Normally updating the client device version in the script will be enough for it to work again
+If you get 400 error you will need to update your streamlink to the latest version for the streamlink scripts or youtube_non_stream_link.py when updates are available to fix the issue. Normally updating the client device version in the script will be enough for it to work again
 
 ## Choose script option
 youtube-live.py - Uses a flask server to automatically pull the actuall stream link. Server needs to be running all the time for m3u to work. Best for always working stream<br>
